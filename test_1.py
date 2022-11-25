@@ -14,5 +14,5 @@ class test(unittest.TestCase):
     ans = getSum(data)
     self.assertEqual(ans, 35)
     
-if _name_ == '_main_':
+if __name__== '__main__':
   unittest.main()
