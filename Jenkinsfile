@@ -16,5 +16,10 @@ agent any
 				sh "/usr/bin/python3 test_1.py"
 			}
 		}
+		stage('Testing stage2') {
+			steps {
+				sh "/usr/bin/python3 test_1.py"
+			}
+		}
 	}
 }
