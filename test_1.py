@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import unittest
 
-from p1 import getSum
+from test_p1 import getSum
 
 class test(unittest.TestCase):
   def test_list_int(self):
