@@ -8,12 +8,12 @@ agent any
 		}
 		stage('Run Code') {
 			steps {
-				sh "/usr/bin/python3 test_1.py"
+				sh "/usr/bin/python3 test_p1.py"
 			}
 		}
 		stage('Testing stage') {
 			steps {
-				sh "/usr/bin/python3 test_p1.py"
+				sh "/usr/bin/python3 test_1.py"
 			}
 		}
 	}
