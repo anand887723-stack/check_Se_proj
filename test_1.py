@@ -10,7 +10,7 @@ class test(unittest.TestCase):
       data.append(i)
     ans = getSum(data)
     self.assertEqual(ans, 45)
-    
+    #
 	def test_2(self):
     data = [1,2,3,4]
     
