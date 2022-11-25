@@ -12,7 +12,7 @@ class test(unittest.TestCase):
     for  i in range(10):
       data.append(i)
     ans = getSum(data)
-    self.assertEqual(ans, 35)
+    self.assertEqual(ans, 45)
     
 if __name__== '__main__':
   unittest.main()
